@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://example.com/astra-child/
+ Description:  Astra Child theme to customize publication CPT
+ Author:       Brighter Agyemang
+ Author URI:   http://example.com
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astra
+*/
+
+nav#site-navigation {
+    background-color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  nav#site-navigation :hover {
+    display: inline;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  nav#site-navigation li, nav#site-navigation a {
+    color: #979696;
+  }
+  
+  nav#site-navigation li :hover, nav#site-navigation a :hover {
+    color: #f57a07;
+  }
+  
+  .publication {
+    background-color: #fff;
+    padding: 3.34em 2.4em;
+    margin: 0;
+  }
+  
+  .card-title span {
+    color: #fff;
+    background-color: #f57a07;
+    padding: .4em;
+    /* border-radius: .5em; */
+  }
+  
+  span.authors {
+    font-weight: 600;
+  }
